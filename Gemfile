@@ -3,7 +3,6 @@ ruby '2.1.2'
 #ruby-gemset=2.1.2@rails416
 
 gem 'rails', '4.1.6'
-gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
 gem 'bourbon', '~> 3.2.3'
 gem 'neat', '~> 1.5.1'
@@ -23,6 +22,7 @@ end
 
 group :development, :test do
 	gem 'rspec-rails'
+	gem 'pg'
 end
 
 group :test do
