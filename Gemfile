@@ -12,6 +12,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'unicorn', '~> 4.8.3'
+gem 'eventmachine', '~> 1.0.3'
+gem 'daemons', '~> 1.1.9'
+gem 'thin', '~> 1.6.3'
+
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
