@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'inventory_items/new'
+
+  get 'inventory_lists/new'
+
   get 'accounts/new'
 
   get 'users/new'
