@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'rentals/new'
+
+  get 'sales/new'
+
   get 'inventory_items/new'
 
   get 'inventory_lists/new'
